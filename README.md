@@ -1,5 +1,5 @@
-# SHAKE NEWSLETTERS
-### Only MObile
+# Calculator
+
 Links:  
 
 [Demo](https://nunosantoswebdesigner.github.io/calculator)
