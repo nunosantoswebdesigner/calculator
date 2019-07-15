@@ -1,26 +1,13 @@
 # Calculator
 
-Links:  
-
+Links do Projecto:  
 [Demo](https://nunosantoswebdesigner.github.io/calculator)
-[Repo](https://nunosantoswebdesigner.github.io/calculator)
+[Repo](https://github.com/nunosantoswebdesigner/calculator)
 
 
 ![home](https://github.com/nunosantoswebdesigner/pdfs/blob/gh-pages/images/calculator_1.png)
-
-
-### Outros Sketch
-
-| Sketch/Exercicios       | Links  |
-| ----------------------  | ------ |
-| Calculator              | https://nunosantoswebdesigner.github.io/claculator |
-| Elasticstack            | https://nunosantoswebdesigner.github.io/elasticstack |
-| SearchText              | https://nunosantoswebdesigner.github.io/searchText |
-| Voice                   | https://nunosantoswebdesigner.github.io/voice |
-| Todo-List               | https://nunosantoswebdesigner.github.io/todolist |
-| BI-Validator            | https://nunosantoswebdesigner.github.io/bivalidator |
-| HTML-to-PDF             | https://nunosantoswebdesigner.github.io/htmltopdf |
-| NsColors                | https://nunosantoswebdesigner.github.io/nscolors |
+![home](https://github.com/nunosantoswebdesigner/pdfs/blob/gh-pages/images/calculator_2.png)
+![home](https://github.com/nunosantoswebdesigner/pdfs/blob/gh-pages/images/calculator_3.png)
 
 
 ## License
@@ -29,9 +16,9 @@ This resource can be used freely if integrated or build upon in personal or comm
 ## Misc
 
 Follow Me at:      
-                [Facebook](http://www.facebook.com/nunosantoswebdesigner),     
-                [GitHub](https://github.com/nunosantoswebdesigner),     
-                [Instagram](https://www.instagram.com/nunosantos_webdesignerss/)     
+[Facebook](http://www.facebook.com/nunosantoswebdesigner),     
+[GitHub](https://github.com/nunosantoswebdesigner),     
+[Instagram](https://www.instagram.com/nunosantos_webdesigner)     
 
 
-[© Nuno Santos 2019](https://nuno-santos.netlify.com)
+[© Nuno Santos 2019](https://www.instagram.com/nunosantos_webdesigner)
