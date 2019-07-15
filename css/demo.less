@@ -1,0 +1,307 @@
+/***********************************************************/
+/* font-face-icons */
+/* icomoon-icons */
+/* ns-icons */
+
+
+
+
+/************************************************************/
+
+/* font-face-icons */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?vrvizk');
+    src:  url('../fonts/icomoon.eot?vrvizk#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?vrvizk') format('truetype'),
+    url('../fonts/icomoon.woff?vrvizk') format('woff'),
+    url('../fonts/icomoon.svg?vrvizk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* icomoon-icons */
+.icon-javascript:before {
+content: "\e900";
+}
+.icon-uniE602:before {
+content: "\e602";
+}
+.icon-uniE000:before {
+content: "\e000";
+}
+.icon-email:before {
+content: "\e901";
+}
+.icon-css3:before {
+content: "\e902";
+}
+.icon-w3c:before {
+content: "\e902";
+}
+.icon-html-five:before {
+content: "\e903";
+}
+.icon-w3c1:before {
+content: "\e903";
+}
+.icon-brand:before {
+content: "\e904";
+}
+.icon-octacat:before {
+content: "\e904";
+}
+.icon-social:before {
+content: "\e904";
+}
+.icon-brand1:before {
+content: "\e905";
+}
+.icon-social1:before {
+content: "\e905";
+}
+.icon-paperplane:before {
+content: "\e906";
+}
+.icon-send:before {
+content: "\e906";
+}
+.icon-flight:before {
+content: "\e906";
+}
+.icon-email1:before {
+content: "\e906";
+}
+.icon-email2:before {
+content: "\e907";
+}
+.icon-letter:before {
+content: "\e907";
+}
+.icon-envelope:before {
+content: "\e907";
+}
+.icon-contact:before {
+content: "\e907";
+}
+
+/* ns-icons */
+.ns-icon:after {
+    font-family: 'icomoon';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-align: center;
+	color: #47a3da;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.ns-icon-about:after {
+    content: "\e003";
+}
+.ns-icon-prev:after {
+    content: "\e004";
+}
+.ns-icon-next:after {
+    content: "\e000";
+}
+.ns-icon-instagram:after {
+    content: "\e905";
+}
+.ns-icon-github:after {
+    content: "\e904";
+}
+.ns-icon-mail:after {
+    content: "\e907";
+}
+
+.ns-icon-about {
+    font-size: 1.5em;
+}
+
+/* mixinis */
+.transition-back {
+    -webkit-transition: background-color 0.75s ease-out;
+    -moz-transition: background-color 0.75s ease-out;
+    -o-transition: background-color 0.75s ease-out;
+    transition: background-color 0.75s ease-out;
+}
+
+
+/* Clearfix and Resets hack  */
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;  list-style: none;}
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #47a3da;
+}
+
+a {
+	color: #ccc;
+	text-decoration: none;
+    outline: none;
+    &:hover {
+        color: #02639d
+    }
+}
+
+.container {
+    header {
+        width: 90%;
+        max-width: 69em;
+        margin: 0 auto;
+        padding: 2.875em 1.875em 1.875em;
+        h1 {
+            float: left;
+            font-size: 2.125em;
+            line-height: 1.3;
+            margin: 0 0 0.6em 0;
+            font-weight: 400;
+        }
+        nav {
+            float: right;
+            text-align: center;
+            .ns-icon{
+                &:after {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    line-height: 2;
+                    text-indent: 0;
+                }
+            }
+            a {
+                display: inline-block;
+                position: relative;
+                text-align: left;
+                width: 2.5em;
+                height: 2.5em;
+                background: #fff;
+                border-radius: 50%;
+                margin: 0 0.1em;
+                border: 4px solid #47a3da;
+                &:hover{
+                    background: #47a3da;
+                    .transition-back;
+                    &:after {
+                        .transition-back;
+                        color: #fff !important;
+                    }
+                }
+            }
+            a:hover:before {
+                content: attr(data-info);
+                color: #47a3da;
+                position: absolute;
+                width: 600%;
+                top: 120%;
+                text-align: right;
+                right: 0;
+                pointer-events: none;
+            }
+        }
+        > span {
+            display: block;
+            position: relative;
+            z-index: 9999;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8em;
+            padding: 0 0 0.6em 0.1em;
+            &:after {
+                width: 30px;
+                height: 30px;
+                left: 0px;
+                font-size: 50%;
+                top: -8px;
+                font-size: 75%;
+                position: relative;
+            }
+            span:hover:before {
+                content: attr(data-content);
+                text-transform: none;
+                text-indent: 0;
+                letter-spacing: 0;
+                font-weight: 300;
+                font-size: 110%;
+                padding: 0.8em 1em;
+                line-height: 1.2;
+                text-align: left;
+                left: auto;
+                margin-left: 4px;
+                position: absolute;
+                color: #fff;
+                background: #47a3da;
+            }
+        }
+    }    
+}         
+
+.info {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 55em) {
+
+	.container > header h1,
+	.container > header nav {
+		float: none;
+	}
+
+	.container > header > span,
+	.container > header h1 {
+		text-align: center;
+	}
+
+	.container > header nav {
+		margin: 0 auto;
+	}
+
+	.container > header > span {
+		text-indent: 30px;
+    }
+    .info {
+        display: none;
+    }
+    .container header > span span:hover:before {
+        left: 0;
+    }
+}
+
+
+@media screen and (max-width: 615px) {
+    
+    #output-value{
+        font-size: 8vw;
+        top: 250px !important;
+    }
+}
+
+
+

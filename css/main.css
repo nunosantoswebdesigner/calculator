@@ -1,0 +1,111 @@
+/* mixinis */
+.transition-back {
+  -webkit-transition: background-color 0.75s ease-out;
+  -moz-transition: background-color 0.75s ease-out;
+  -o-transition: background-color 0.75s ease-out;
+  transition: background-color 0.75s ease-out;
+}
+#calculator {
+  width: 330px;
+  height: 520px;
+  margin: 0 auto;
+  top: 20px;
+  position: relative;
+  border: 3px solid #47a3da;
+}
+#result {
+  height: 110px;
+  position: relative;
+}
+#history {
+  text-align: right;
+  height: 20px;
+  margin: -20px 10px;
+  font-size: 15px;
+  color: #02639d;
+}
+#output {
+  text-align: right;
+  height: 60px;
+  margin: -50px 10px;
+  font-size: 50px;
+}
+#output #output-value {
+  font-size: 50px;
+}
+#output-text {
+  width: 90%;
+  height: 80px;
+  float: left;
+  margin: 5%;
+  border-bottom: 3px solid #47a3da;
+}
+#keyboard {
+  height: 400px;
+}
+.operator,
+.number,
+.empty {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+.number {
+  background-color: #ffffff;
+  border: 1px solid #47a3da;
+  color: #47a3da;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: background-color 0.75s ease-out;
+  -moz-transition: background-color 0.75s ease-out;
+  -o-transition: background-color 0.75s ease-out;
+  transition: background-color 0.75s ease-out;
+}
+.number:hover {
+  -webkit-transition: background-color 0.75s ease-out;
+  -moz-transition: background-color 0.75s ease-out;
+  -o-transition: background-color 0.75s ease-out;
+  transition: background-color 0.75s ease-out;
+  background: #47a3da;
+  color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.operator {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  background: #47a3da;
+  color: #ffffff;
+  -webkit-transition: background-color 0.75s ease-out;
+  -moz-transition: background-color 0.75s ease-out;
+  -o-transition: background-color 0.75s ease-out;
+  transition: background-color 0.75s ease-out;
+}
+.operator:hover {
+  -webkit-transition: background-color 0.75s ease-out;
+  -moz-transition: background-color 0.75s ease-out;
+  -o-transition: background-color 0.75s ease-out;
+  transition: background-color 0.75s ease-out;
+  border: 1px solid #47a3da;
+  background-color: #ffffff;
+  color: #47a3da;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.empty {
+  background-color: #ffffff;
+}
+.number,
+.operator {
+  cursor: pointer;
+}
+.operator:active,
+.number:active {
+  font-size: 13px;
+}
+.operator:focus,
+.number:focus,
+.empty:focus {
+  outline: 0;
+}
